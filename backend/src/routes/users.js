@@ -45,3 +45,5 @@ router.delete('/favorites/:plotId', authRequired, requireRole('buyer'), async (r
 });
 
 export default router;
+
+
